@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>COMP5415/4415 Multimedia Design and Authoring</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="MDA team" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/Mda.css" />
+  </head>
+
+  <body>
+    <section id="Navigation">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: lightblue"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/1.png" alt="Logo" style="height: 120px" />
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Images
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#poster">Logo</a>
+                <a class="dropdown-item" href="#banner">Banner</a>
+                <a class="dropdown-item" href="#poster">Poster</a>
+              </div>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#Demo">Animation</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="#video">Video</a>
+            </li>
+          </ul>
+          <span class="navbar-text" style="color: lightyellow">
+            COMP5415/4415
+          </span>
+        </div>
+      </nav>
+    </section>
+
+    <section class="hero" id="banner">
+      <div class="hero-container">
+        <h1>An Innovative Journey in Remote Property Showings</h1>
+        <p>
+          Promote modern and innovative homes through virtual tour experiences,
+          showcasing various architectural models and inviting viewers to
+          explore them online.
+        </p>
+        <a href="#poster">Let's explore together →</a>
+      </div>
+    </section>
+
+    <section id="poster" style="margin: 10px">
+      <div class="card-deck">
+        <div class="card">
+          <img src="assets/img/Poster1.png" class="card-img-top" alt="..." />
+        </div>
+        <div class="card">
+          <img src="assets/img/3.jpg" class="card-img-top" alt="..." />
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <section id="Description">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img
+                    class=""
+                    src="assets/img/1.png"
+                    alt="Card image cap"
+                    height="400"
+                    width="400"
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    <strong>Technical Highlights</strong>
+                  </h2>
+                  <div class="row">
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>&#10003; Layer Blending Modes</li>
+                        <li>&#10003; Text Tools</li>
+                        <li>&#10003; Layer Scaling</li>
+                        <li>&#10003; Color Adjustment</li>
+                        <li>&#10003; Free Selection Tool</li>
+                        <li>&#10003; Filters and Effects</li>
+                        <li>&#10003; Transform Tools</li>
+                        <li>&#10003; Image segmentation</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>&#10003; Modeling</li>
+                        <li>&#10003; Extrusion</li>
+                        <li>&#10003; Boolean Operations</li>
+                        <li>&#10003; Loop Cut</li>
+                        <li>&#10003; Materials and Texturing</li>
+                        <li>&#10003; Lighting and Rendering</li>
+                        <li>&#10003; Camera Setup</li>
+                        <li>&#10003; Animation</li>
+                        <li>&#10003; Font Color Gradient</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="full-slide">
+        <div class="row">
+          <div class="col-6 mt-3">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <div class="carousel-inner">
+                <div
+                  class="carousel-item active"
+                  style="background-image: url(assets/img/f1.jpg)"
+                ></div>
+                <div
+                  class="carousel-item"
+                  style="background-image: url(assets/img/f11.jpg)"
+                ></div>
+                <div
+                  class="carousel-item"
+                  style="background-image: url(assets/img/f3.jpg)"
+                ></div>
+              </div>
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 mt-3">
+            <div id="demo2" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                <li data-target="#demo2" data-slide-to="1"></li>
+                <li data-target="#demo2" data-slide-to="2"></li>
+              </ul>
+              <div class="carousel-inner">
+                <div
+                  class="carousel-item active"
+                  style="background-image: url(assets/img/f4.jpg)"
+                ></div>
+                <div
+                  class="carousel-item"
+                  style="background-image: url(assets/img/f10.jpg)"
+                ></div>
+                <div
+                  class="carousel-item"
+                  style="background-image: url(assets/img/f12.jpg)"
+                ></div>
+              </div>
+              <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo2" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="video">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="card-body text-center">
+                  <h2 class="card-title">
+                    <strong>Consistent with Design Idea</strong>
+                  </h2>
+
+                  <ul class="list-unstyled">
+                    <li>High visual transparency</li>
+                    <li>Convenient</li>
+                    <li>Design aesthetically pleasing</li>
+                    <li>Eye-catching billboard</li>
+                    <li>Visibility and Accessibility</li>
+                  </ul>
+
+                  <img
+                    src="assets/img/e2.jpg"
+                    style="
+                      width: 500px;
+                      height: 250px;
+                      margin: 0 auto;
+                      display: block;
+                    "
+                  />
+                </div>
+
+                <div class="img-square-wrapper" style="margin: 10px">
+                  <!--<iframe width="1000" height="800" src="https://www.youtube.com/embed/OYhhp44eLzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        
+                      </iframe>-->
+                  <video id="myvideo" controls width="900" height="500">
+                    <source src="assets/video.mp4" type="video/MP4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="full-slides">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="scene">
+              <div class="carousel_2">
+                <div
+                  class="carousel__cell"
+                  style="
+                    background-image: url(assets/img/e.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div
+                  class="carousel__cell"
+                  style="
+                    background-image: url(assets/img/a.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div
+                  class="carousel__cell"
+                  style="
+                    background-image: url(assets/img/e1.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div
+                  class="carousel__cell"
+                  style="
+                    background-image: url(assets/img/b.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+                <div
+                  class="carousel__cell"
+                  style="
+                    background-image: url(assets/img/e2.jpg);
+                    background-size: cover;
+                  "
+                ></div>
+              </div>
+            </div>
+
+            <div class="carousel-options">
+              <p>
+                <button class="previous-button btn btn-light">Previous</button>
+                <button class="next-button btn btn-light">Next</button>
+              </p>
+              <p>
+                Orientation:
+                <label>
+                  <input
+                    type="radio"
+                    name="orientation"
+                    value="horizontal"
+                    checked
+                  />
+                  Horizontal
+                </label>
+                <label>
+                  <input type="radio" name="orientation" value="vertical" />
+                  Vertical
+                </label>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Conclusion">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <div class="card-horizontal">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title">Products & Pricing</h5>
+                      <ul class="list-unstyled">
+                        <li>Pricing</li>
+                        <li>Atlas</li>
+                        <li>Billing</li>
+                        <li>Checkout</li>
+                        <li>Connect</li>
+                        <li>Data Pipeline</li>
+                        <li>Elements</li>
+                        <li>Financial Connections</li>
+                        <li>Issuing</li>
+                        <li>Link</li>
+                        <li>Payments</li>
+                        <li>Payment Links</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <h5 class="card-title">Solutions</h5>
+                      <ul class="list-unstyled">
+                        <li>Start-ups</li>
+                        <li>Enterprises</li>
+                        <li>SaaS</li>
+                        <li>Platforms</li>
+                        <li>E-Commerce</li>
+                        <li>Marketplaces</li>
+                        <li>Crypto</li>
+                        <li>Creator economy</li>
+                        <li>Embedded finance</li>
+                        <li>Global businesses</li>
+                        <li>Finance automation</li>
+                        <li>Integrations & Custom Solutions</li>
+                      </ul>
+                    </div>
+
+                    <div class="col">
+                      <h5 class="card-title">Support</h5>
+                      <ul class="list-unstyled">
+                        <li>Contact sales</li>
+                        <li>Support centre</li>
+                        <li>Support plans</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="footer mt-4">
+                    <p>Produced by Shili Ai & 530748762</p>
+                    <p>
+                      Email:
+                      <a href="mailto:shai0408@uni.sydney.edu.au"
+                        >shai0408@uni.sydney.edu.au</a
+                      >
+                    </p>
+                  </div>
+                </div>
+
+                <div class="img-square-wrapper">
+                  <img
+                    class=""
+                    src="assets/img/e1.jpg"
+                    alt="Card image cap"
+                    height="500"
+                    width="800"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3" style="margin-top: 30px">
+        © 2024 Copyright:
+        <a href="#"> COMP5415/4415 Multimedia Design and Authoring</a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
